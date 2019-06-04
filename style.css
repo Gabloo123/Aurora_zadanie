@@ -1,0 +1,245 @@
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  color: black; }
+
+.header_top {
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #d7d7d7;
+  font-size: 12px;
+  font-weight: 700; }
+
+.header_top_left {
+  margin-left: 15%;
+  float: left;
+  padding-top: 12px;
+  padding-bottom: 14px; }
+
+.header_top_left2 {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  float: left; }
+
+.header_top_right {
+  margin-right: 15%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  float: right;
+  cursor: pointer; }
+  .header_top_right:hover {
+    text-decoration: underline; }
+
+.header_top_right2 {
+  padding-right: 1%;
+  padding-left: 1%;
+  border-left: 1px solid #d7d7d7;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  float: right;
+  cursor: pointer; }
+  .header_top_right2:hover {
+    text-decoration: underline; }
+
+.icons {
+  margin-right: 8px; }
+
+.header_contact {
+  text-decoration: none;
+  color: black;
+  margin-top: -20px; }
+  .header_contact:hover {
+    cursor: pointer;
+    text-decoration: underline; }
+
+.aurora_logo {
+  padding: 40px 0px 60px 0px;
+  margin-left: 15%;
+  float: left; }
+
+form {
+  width: 30%;
+  float: left;
+  padding-top: 5%;
+  padding-bottom: 35px;
+  padding-left: 12%;
+  color: #d7d7d7; }
+  form input {
+    width: 96%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px 0;
+    border-bottom: 2px solid #d7d7d7; }
+  form button {
+    margin-left: -4px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #d7d7d7;
+    background-color: white;
+    padding: 5px 0;
+    cursor: pointer; }
+
+.header_basket {
+  padding-top: 5%;
+  float: right;
+  padding-bottom: 35px;
+  margin-right: 15%; }
+  .header_basket img {
+    cursor: pointer; }
+  .header_basket p {
+    font-weight: 700;
+    margin-top: -1%;
+    float: right; }
+
+nav {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 35px; }
+
+i {
+  display: none;
+  cursor: pointer; }
+
+.menu {
+  float: left;
+  padding-right: 4.6%; }
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 700; }
+    .menu a:hover {
+      color: #ecc7d0; }
+
+.menu-right {
+  float: left; }
+  .menu-right a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 700; }
+    .menu-right a:hover {
+      color: #ecc7d0; }
+
+@media (max-width: 1550px) {
+  .menu {
+    padding-right: 4%; } }
+
+@media (max-width: 1450px) {
+  .menu a {
+    font-size: 12px; }
+  .menu-right a {
+    font-size: 12px; }
+  form {
+    width: 28%; } }
+
+@media (max-width: 1340px) {
+  #aurora_logo {
+    margin-left: 10%; }
+  .header_top_left {
+    margin-left: 10%; }
+  nav {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; }
+  .menu {
+    padding-right: 4.5%; }
+  .header_basket {
+    margin-right: 10%; }
+  .header_top_right {
+    margin-right: 10%; } }
+
+@media (max-width: 1240px) {
+  .menu {
+    padding-right: 3.75%; }
+  form {
+    width: 26%;
+    padding-right: 3%; }
+    form input {
+      width: 93%; } }
+
+@media (max-width: 1140px) {
+  .menu {
+    padding-right: 3.25%; } }
+
+@media (max-width: 1080px) {
+  .menu a {
+    font-size: 11px; }
+  .menu-right a {
+    font-size: 11px; } }
+
+@media (max-width: 980px) {
+  .menu a {
+    font-size: 10px; }
+  .menu-right a {
+    font-size: 10px; } }
+
+@media (max-width: 880px) {
+  .menu {
+    padding-right: 2.5%; } }
+
+@media (max-width: 768px) {
+  form {
+    padding-left: 10%;
+    width: 23%; }
+  i {
+    display: inline; }
+  .desc {
+    display: none; }
+  .menu {
+    width: 100%;
+    padding-top: 14px; }
+    .menu a {
+      font-size: 12px; }
+  .menu-right {
+    width: 100%;
+    padding-top: 14px; }
+    .menu-right a {
+      font-size: 12px; }
+  nav {
+    padding-bottom: 15px; }
+  form input {
+    width: 90%; }
+  .aurora_logo {
+    padding-bottom: 40px; } }
+
+@media (max-width: 693px) {
+  .aurora_logo {
+    float: inherit;
+    margin-left: 40%;
+    padding-bottom: 0px; }
+    .aurora_logo img {
+      width: 40%; }
+  form {
+    width: 45%; } }
+
+@media (max-width: 570px) {
+  .header_top_left {
+    margin-left: 10px; }
+  .header_top_right {
+    margin-right: 0px; } }
+
+@media (max-width: 460px) {
+  .header_top {
+    font-size: 10px; }
+  .header_top_left2 {
+    margin-left: 5px; } }
+
+@media (max-width: 410px) {
+  form {
+    width: 35%; }
+    form input {
+      width: 88%; }
+  .header_top {
+    font-size: 9px; } }
